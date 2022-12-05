@@ -1,0 +1,16 @@
+{
+  "name": "moritz-test",
+  "productName": "moritz-test",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "keywords": [],
+  "author": {
+    "name": "Elias Rut",
+    "email": "eliasrut@gmx.at"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mqtt": "^4.3.7",
+    "queue-fifo": "^0.2.6"
+  }
+}
