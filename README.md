@@ -13,13 +13,6 @@ to compile the typescript sources etc.
 `yarn run make`
 makes the actual executable.
 
-This will produce a runnable version in the **./out/porsche-afgc-win32-x64** folder, but: image resources might still be
-missing. This is a bug as far as I can tell, or due to the way we include them so that we can
-develop cross-platform.
-
-To fix it, copy the assets folder into ./out/porsche-afgc-win32-x64/resources/app. For example,
-the "chevron-left.png" should be located under
-./out/porsche-afgc-win32-x64/resources/app/assets/chevron-left.png
 
 ## Dependencies
 
