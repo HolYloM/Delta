@@ -17,7 +17,7 @@ client.on("connect", function () {
   console.log("Connection established.");
 });
 
-console.log(`Publishing test message to ${topic}`);
+console.log(`Publishing test message to ${topicX1}`);
 client.publish(topicX1, "Test message");
 client.publish(topicY1, "Test message");
 client.publish(topicX2, "Test message");
