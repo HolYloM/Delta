@@ -54,19 +54,19 @@ child.stdout.on("data", function (data) {
     client.publish(topicDd, `${matches[6]}`);
     client.publish(topicDl, `${matches[7]}`);
     client.publish(topicDr, `${matches[8]}`);
-    client.publish(topicBack, `${matches[9]}`);
-    client.publish(topicGuide, `${matches[10]}`);
-    client.publish(topicStart, `${matches[11]}`);
-    client.publish(topicTL, `${matches[12]}`);
-    client.publish(topicTR, `${matches[13]}`);
-    client.publish(topicA, `${matches[14]}`);
-    client.publish(topicB, `${matches[15]}`);
-    client.publish(topicX, `${matches[16]}`);
-    client.publish(topicY, `${matches[17]}`);
-    client.publish(topicLB, `${matches[18]}`);
-    client.publish(topicRB, `${matches[19]}`);
-    client.publish(topicLT, `${matches[20]}`);
-    client.publish(topicRT, `${matches[21]}`);
+    // client.publish(topicBack, `${matches[9]}`);
+    // client.publish(topicGuide, `${matches[10]}`);
+    // client.publish(topicStart, `${matches[11]}`);
+    // client.publish(topicTL, `${matches[12]}`);
+    // client.publish(topicTR, `${matches[13]}`);
+    // client.publish(topicA, `${matches[14]}`);
+    // client.publish(topicB, `${matches[15]}`);
+    // client.publish(topicX, `${matches[16]}`);
+    // client.publish(topicY, `${matches[17]}`);
+    // client.publish(topicLB, `${matches[18]}`);
+    // client.publish(topicRB, `${matches[19]}`);
+    // client.publish(topicLT, `${matches[20]}`);
+    // client.publish(topicRT, `${matches[21]}`);
   }
 
   lastData = data;
