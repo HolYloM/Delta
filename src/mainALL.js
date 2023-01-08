@@ -13,6 +13,23 @@ const topicX1 = "Delta/X1";
 const topicY1 = "Delta/Y1";
 const topicX2 = "Delta/X2";
 const topicY2 = "Delta/Y2";
+const topicDu = "Delta/du";
+const topicDd = "Delta/dd";
+const topicDl = "Delta/dl";
+const topicDr = "Delta/dr";
+const topicBack = "Delta/back";
+const topicGuide = "Delta/guide";
+const topicStart = "Delta/start";
+const topicTL = "Delta/TL";
+const topicTR = "Delta/TR";
+const topicA = "Delta/A";
+const topicB = "Delta/B";
+const topicX = "Delta/X";
+const topicY = "Delta/Y";
+const topicLB = "Delta/LB";
+const topicRB = "Delta/RB";
+const topicLT = "Delta/LT";
+const topicRT = "Delta/RT";
 
 client.on("connect", function () {
   console.log("Connection established.");
@@ -50,10 +67,10 @@ child.stdout.on("data", function (data) {
     client.publish(topicY1, `${matches[2]}`);
     client.publish(topicX2, `${matches[3]}`);
     client.publish(topicY2, `${matches[4]}`);
-    client.publish(topicDu, `${matches[5]}`);
-    client.publish(topicDd, `${matches[6]}`);
-    client.publish(topicDl, `${matches[7]}`);
-    client.publish(topicDr, `${matches[8]}`);
+    // client.publish(topicDu, `${matches[5]}`);
+    // client.publish(topicDd, `${matches[6]}`);
+    // client.publish(topicDl, `${matches[7]}`);
+    // client.publish(topicDr, `${matches[8]}`);
     // client.publish(topicBack, `${matches[9]}`);
     // client.publish(topicGuide, `${matches[10]}`);
     // client.publish(topicStart, `${matches[11]}`);
